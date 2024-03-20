@@ -1,0 +1,6 @@
+Package: mavlink-camera-manager-service
+Version: 1.0.0
+Architecture: arm64
+Depends: 
+Maintainer: Ridha MASTOURI <mastouri.rms@gmail.com> 
+Description: mavlink-camera-manager-service for Seabot ROBOT

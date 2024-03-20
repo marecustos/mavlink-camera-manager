@@ -1,0 +1,11 @@
+#!/bin/sh
+# © 2023 AymeN rachdi     <contact@aymenrachdi.xyz>
+
+
+#Deploying systemd service 
+   systemctl daemon-reload
+   systemctl enable seabot_qgc.service
+   systemctl start seabot_qgc.service
+   systemctl status seabot_qgc.service
+   echo "mavlink-camera-manager-service debian package is installed successfully"
+
